@@ -1,12 +1,12 @@
 {
-  "name": "pouet",
+  "name": "Frontend-mentor-Countdown",
   "version": "0.0.1",
-  "description": "",
-  "keywords": "",
+  "description": "Frontend mentor countdown challenge",
   "license": "",
-  "author": "",
+  "author": "Alexandre Pereira",
   "scripts": {
-    "build": "parcel build index.html",
+    "push-gh-pages": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose",
+    "build": "parcel build ./index.html --public-url ./",
     "dev": "parcel index.html --open",
     "start": "npm run build && npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
